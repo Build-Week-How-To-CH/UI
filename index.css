@@ -14,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid black;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background: honeydew;
+	background: black;
 }
 ol, ul {
 	list-style: none;
@@ -43,13 +43,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+
 .topDiv{
 	display:flex;
 	justify-content:center;
-	background-color: beige;
+	font-family: "Arial";
 }
 .mainNav{
-	background-color: lightslategrey;
 	font-size: 2.2rem;
 }
 .homer:hover{
@@ -64,6 +68,8 @@ table {
 	display:flex;
 	justify-content: center;
 	font-size: 4.1rem;
+	color:white;
+	font-family: "Arial";
 }
 .mainPoints{
 	display: flex;
@@ -74,6 +80,8 @@ table {
 	font-size: 1.5rem;
 	padding-bottom: 1.4rem;
 	padding-top: 1rem;
+	color:mediumpurple;
+	font-family: "Arial";
 }
 #one{
 	height: 0;
@@ -85,7 +93,7 @@ table {
 
 	height: 0;
 	border-top: 1rem solid transparent;
-	border-left: 2rem solid #555;
+	border-left: 2rem solid darkgray;
 	border-bottom: 1rem solid transparent;
 }
 #three{
@@ -99,20 +107,17 @@ table {
 
 	height: 0;
 	border-top: 1rem solid transparent;
-	border-left: 2rem solid #555;
-	border-bottom: 1rem solid transparent;
-}
-#five{
-
-	height: 0;
-	border-top: 1rem solid transparent;
-	border-left: 2rem solid #555;
+	border-left: 2rem solid darkgray;
 	border-bottom: 1rem solid transparent;
 }
 .logMaker{
 	display: flex;
-	flex-direction: column;
-	
+	justify-content: center;
+	font-family: "Arial";
+}
+h2{
+	display: flex;
+	justify-content: center;
 }
 
 .movingText{
@@ -123,8 +128,19 @@ table {
   margin: 2rem;
   vertical-align: top;
   padding-top:2rem;
+  padding-left:.5rem;
 }
-
+.movingText2{
+	height: 50px;
+  width: 100px;
+  background-color: #555;
+  border-radius: 50%;
+  margin: 2rem;
+  vertical-align: top;
+  padding-top:2rem;
+  padding-left:.5rem;
+  word-wrap:break-word;
+}
 .login:hover{
 	color:whitesmoke;
 	background-color:black;
@@ -138,5 +154,10 @@ table {
 }
 .createAccount:hover{
 	color:whitesmoke;
-	background-color:black;
+	background-color:mediumpurple;
+}
+.pics1{
+	display: flex;
+	padding-top:2rem;
+	width: 100%;
 }
