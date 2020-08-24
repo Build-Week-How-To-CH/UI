@@ -14,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 1px solid black;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: blue;
+	background: honeydew;
 }
 ol, ul {
 	list-style: none;
@@ -43,7 +43,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-body {
-	background: beige;
+.topDiv{
+	display:flex;
+	justify-content:center;
+	background-color: beige;
+}
+.mainNav{
+	background-color: lightslategrey;
+	font-size: 2.2rem;
+}
+.mainNav:hover{
+	background-color: black;
+	color: whitesmoke;
+}
+.bigHeader{
+	display:flex;
+	justify-content: center;
+	font-size: 4.1rem;
+}
+.mainPoints{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
 }
