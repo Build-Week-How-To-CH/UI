@@ -29,6 +29,7 @@ display: block;
 body {
 line-height: 1.5;
 font-size: 1.6rem;
+color: #444444;
 min-height:100%;
 }
 * {
@@ -55,6 +56,13 @@ border-spacing: 0;
 
 .main-container{
     max-width: 100%;
+}
+.background-container{
+    background: url("/assets/images/bg-whitelines.jpeg");
+}
+.about-intro-container{
+    text-align: center;
+    padding: 10%;
 }
 
 .top-nav{
@@ -93,6 +101,7 @@ a {
     width: 40%;
     text-align: center;
     padding: 2% 0 9% 0;
+    text-shadow: .3px .3px 6px;
 }
 .top-pic{
     width: 50%;
@@ -105,12 +114,13 @@ a {
 
 .divider{
     height: 1px;
-    border-top: 1px solid black;
     padding: 1.5%;
+    background: rgb(195, 214, 221);
 }
 
 .content-container{
     text-align: center;
+    background: rgb(195, 214, 221);
 }
 .content-container h2{
     margin: auto;
@@ -120,12 +130,13 @@ a {
 
 .top-rated-articles, .new-rated-articles{
     display: flex;
-    padding: 3% 0;
+    padding: 4% 0;
     justify-content: space-around;
 }
 .top-rated, .new-rated {
     width: 300px;
     border: 3px solid black;
+    box-shadow: 2px 2px 4px;
     display: flex;
 }
 .top-rated img{
@@ -133,7 +144,7 @@ a {
 }
 
 .plug{
-    padding-bottom: 3%;
+    padding: 2.5% 10% 2.5% 10%;
     display: flex;
 }
 
@@ -142,13 +153,23 @@ a {
 }
 
 footer{
+    padding: 1%;
     display:flex;
     justify-content: center;
     background: rgb(232, 232, 228);
 }
-footer p{
+#footer-copy{
     font-size: 1rem;
-    padding: 1%;
+    padding: 8px 22px 8px 0;
+}
+footer a{
+    font-size: 1rem;
+    display: block;
+    border: 2px solid #444444;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px #444444;
+    text-shadow: 2px 2px 2px white;
+    padding: 6px;
 }
 
 /*  typography */
