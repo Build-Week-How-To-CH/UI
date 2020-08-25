@@ -82,6 +82,21 @@ p{
 	font-family:'Srisakdi', cursive;
 	margin-left:.75rem;
 }
+.headerBubbleContact{
+		position: relative;
+		background: mediumpurple;
+		border-radius: .4em;
+		width:35%;
+		margin-left:33rem;
+	}
+	.bigHeaderCon{
+		display:flex;
+		justify-content: center;
+		font-size: 4.7rem;
+		color:white;
+		font-family:'Srisakdi', cursive;
+		margin-left:.75rem;
+	}
 .mainPoints{
 	display: flex;
 	flex-wrap: wrap;
@@ -291,6 +306,7 @@ h2{
 	margin-left: -11.5px;
 	margin-top: -23px;
 }
+
 
 
 
