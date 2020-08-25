@@ -146,7 +146,12 @@ h2{
 	display: flex;
 	justify-content: center;
 }
-
+.workPicCon{
+	display: flex;
+	justify-content: center;
+	height: 33rem;
+	margin-top:1.7rem;
+}
 .workPic{
 	display: flex;
 	justify-content: center;
@@ -169,7 +174,22 @@ h2{
 	border-radius:85%;
 	border:.8rem solid mediumpurple;
 }
-
+.pic1Con{
+	width:35%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:85%;
+	border:.8rem solid mediumpurple;
+}
+.pic2Con{
+	width:35%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:85%;
+	border:.8rem solid mediumpurple;
+}
 
 .movingText{
 	height: 50px;
@@ -211,8 +231,30 @@ h2{
 	margin-left: 3%;
 	margin-bottom: auto;
 }
+.speech-bubble1Con {
+	position: relative;
+	background: #d544c1;
+	border-radius: .4em;
+	width:10%;
+	margin-left: 3%;
+	margin-bottom: auto;
+}
 
 .speech-bubble1:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0%;
+	height: 0;
+	border: 31px solid transparent;
+	border-right-color: #d544c1;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -15.5px;
+	margin-left: -31px;
+}
+.speech-bubble1Con:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -259,9 +301,30 @@ h2{
 		margin-left: 3%;
 		margin-bottom: auto;
 }
-	
+.speech-bubble3Con {
+	position: relative;
+	background: #d544c1;
+	border-radius: .4em;
+	width:10%;
+	margin-left: 3%;
+	margin-bottom: auto;
+}
 
 .speech-bubble3:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0%;
+	height: 0;
+	border: 31px solid transparent;
+	border-right-color: #d544c1;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -15.5px;
+	margin-left: -31px;
+}
+.speech-bubble3Con:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -283,7 +346,13 @@ h2{
 	justify-content: space-around;
 	margin-top: 2rem;
 }
-
+.bubbleHolderCon{
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 2rem;
+}
 .headerBubble {
 	position: relative;
 	background: mediumpurple;
@@ -307,9 +376,27 @@ h2{
 	margin-top: -23px;
 }
 
+.workPicCon1{
+		justify-content: center;
+		height: 33rem;
+		margin-top:1.7rem;
+		margin-bottom:4rem;
+	}
 
-
-
+.pic1ConCody{
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius:85%;
+		border:.8rem solid black;
+	}
+#codyText{
+	display: flex;
+	justify-content: center;
+	margin-top:1rem;
+	font-size:2rem;
+	font-family:'Srisakdi', cursive;
+}
 
 
 @media (max-width:1024px) {
@@ -327,6 +414,18 @@ h2{
 	}
 	.speech-bubble2{
 		width:18%;
+	}
+	.workPicCon{
+		height: 65vh;
+	}
+	.headerBubbleContact{
+		margin-left:21rem;
+	}
+	.speech-bubble1Con, .speech-bubble3Con{
+		width:35%;
+	}
+	.bigHeaderCon{
+		text-align:center ;
 	}
 }
 
@@ -352,6 +451,18 @@ h2{
 	}
 	#three{
 		margin-left:-1.3rem;
+	}
+	.bigHeaderCon{
+		margin-left:-2rem;
+	}
+	.headerBubbleContact{
+		margin-left:16.5rem;
+	}
+	.pic1Con,.pic2Con{
+		height: 50vh;
+	}
+	.speech-bubble1Con,.speech-bubble3Con{
+		margin-top:-4rem;
 	}
 }
 
