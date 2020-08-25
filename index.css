@@ -291,3 +291,80 @@ h2{
 	margin-left: -11.5px;
 	margin-top: -23px;
 }
+
+
+
+
+
+@media (max-width:1024px) {
+	.headerBubble{
+		width: 18%;
+	}
+	#three, #four{
+		margin-top:.8rem;
+	}
+	.workPic{
+		height: 55vh;
+	}
+	.speech-bubble1, .speech-bubble3{
+		width:20%;
+	}
+	.speech-bubble2{
+		width:18%;
+	}
+}
+
+@media(max-width:800px){
+	.bigHeader{
+		margin-left: -.15rem;
+	}
+	.headerBubble{
+		width:25%;
+	}
+	.mainPoints{
+		flex-flow: nowrap;
+		width:98%;
+	}
+	.mainNav{
+		font-size:1.4rem;
+	}
+	#one{
+		margin-left:1rem;
+	}
+	.speech-bubble1,.speech-bubble2,.speech-bubble3{
+		width:25%;
+	}
+	#three{
+		margin-left:-1.3rem;
+	}
+}
+
+@media (max-width:500px){
+	.headerBubble{
+	margin-left: 4rem ;
+	width:31%;
+	}
+	.mainPoints{
+		width:90%;
+		margin-bottom:6rem;
+	}
+	#one{
+		margin-left:1.5rem;
+	}
+	.workPic{
+		height: 35vh;
+	}
+	.pic1, .pic2{
+		border:.4rem solid mediumpurple;
+	}
+	.speech-bubble1,.speech-bubble2,.speech-bubble3{
+		width:27%;
+	}
+	.bubbleHolder{
+		width:95%;
+	}
+	.speech-bubble3:after,.speech-bubble1:after{
+		width:5%;
+		padding-left:.4rem;
+	}
+}
