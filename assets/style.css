@@ -52,9 +52,6 @@ border-spacing: 0;
 }
 
 /*  my additions   */
-body{
-   
-}
 
 .main-container{
     max-width: 100%;
@@ -74,8 +71,7 @@ a {
 }
 
 .plug a{
-    font-size: 1rem;
-    padding: 1%;
+    padding-left: 1%;
 }
 
 .title-mission, .top-rated-articles, .new-rated-articles, .plug, .content-container{
@@ -92,20 +88,20 @@ a {
 .title-mission h3{
     padding: 2% 0;
 }
-.top-pic{
+
+.title-mission p{
     width: 40%;
+    text-align: center;
+    padding: 2% 0 9% 0;
+}
+.top-pic{
+    width: 50%;
 }
 .top-pic img{
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
-
-.top-pic p{
-    text-align: center;
-    padding: 2% 0 9% 0;
-}
-
 
 .divider{
     height: 1px;
@@ -129,13 +125,18 @@ a {
 }
 .top-rated, .new-rated {
     width: 300px;
-    height: 300px;
     border: 3px solid black;
+    display: flex;
+}
+.top-rated img{
+    width: 100%;
 }
 
 .plug{
+    padding-bottom: 3%;
     display: flex;
 }
+
 .plug h4{
     color: rgb(194, 44, 44);
 }
@@ -166,4 +167,87 @@ h3{
 }
 p{    
     font-family: 'Fira Mono', monospace;
+}
+
+/* responsive  */
+
+@media (max-width:900px){
+    .title-mission h1, .title-mission h3, .top-pic{
+        padding-right: 16%;
+    }
+    .top-pic img{
+        border-radius: 0;
+    }
+}
+@media (max-width:823px){
+    .title-mission h1, .title-mission h3, .top-pic{
+        padding-right: 22%;
+    }
+    .top-pic{
+        width: 65%;
+    }
+}
+@media (max-width:882px){
+    .title-mission p{
+        width: 100%;
+        /* text-align: center;
+        padding: 2% 0 9% 0; */
+    }
+}
+@media (max-width:712px){
+    
+    .title-mission h1, .title-mission h3, .top-pic{
+        padding-right: 27%;
+    }
+    h1{
+        font-size:3.5rem;
+    }
+    h2{
+        font-size:2rem;
+    }
+    h3{
+        font-size:1.8rem;
+    }
+   .plug{
+       font-size:1.2rem;
+   }
+}
+@media (max-width:550px){
+    .top-nav a{
+        font-size:.8rem;
+    }
+}
+@media (max-width:500px){
+    .top-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-nav a{
+        font-size:1.4rem;
+    }
+    .top-pic{
+        width: 75%;
+    }
+    .plug{
+        font-size:1rem;
+    }
+    
+    .title-mission h1, .title-mission h3, .top-pic{
+        padding-right: 0;
+        text-align: center;
+    }
+    .title-mission {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background: none;
+    }
+    .top-rated-articles, .new-rated-articles{
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-rated, .new-rated{
+        margin: 2% 0;
+    }
+    
 }
