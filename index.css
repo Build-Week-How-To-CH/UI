@@ -58,10 +58,22 @@ table {
 p{
 	color:white;
 }
+h3{
+	font-family:'Srisakdi', cursive;
+	color:black;
+	text-shadow: 0 0 1px rgb(153, 129, 129), 0 0 6px white;
+}
 .bodyText{
 	width: 65%;
 	justify-content: center;
 	margin-left: 20%;
+}
+.bodyTextCon{
+	width: 65%;
+	justify-content: center;
+	margin-left: 20%;
+	font-family:'Srisakdi', cursive;
+	font-size: 1.3rem;
 }
 .mainNav{
 	font-size: 2.2rem;
@@ -235,8 +247,9 @@ h2{
 	position: relative;
 	background: #d544c1;
 	border-radius: .4em;
-	width:10%;
+	width:15%;
 	margin-left: 3%;
+	padding-bottom:.5rem;
 	margin-bottom: auto;
 }
 
@@ -303,10 +316,11 @@ h2{
 }
 .speech-bubble3Con {
 	position: relative;
-	background: #d544c1;
+	background: #00aabb;
 	border-radius: .4em;
-	width:10%;
+	width:15%;
 	margin-left: 3%;
+	padding-bottom:.5rem;
 	margin-bottom: auto;
 }
 
@@ -332,7 +346,7 @@ h2{
 	width: 0%;
 	height: 0;
 	border: 31px solid transparent;
-	border-right-color: #d544c1;
+	border-right-color: #00aabb;
 	border-left: 0;
 	border-bottom: 0;
 	margin-top: -15.5px;
@@ -396,6 +410,7 @@ h2{
 	margin-top:1rem;
 	font-size:2rem;
 	font-family:'Srisakdi', cursive;
+	text-shadow: 0 0 1px rgb(153, 129, 129), 0 0 6px white;
 }
 
 
