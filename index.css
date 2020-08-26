@@ -416,7 +416,7 @@ h2{
 		width:18%;
 	}
 	.workPicCon{
-		height: 65vh;
+		height: 75vh;
 	}
 	.headerBubbleContact{
 		margin-left:21rem;
@@ -493,5 +493,12 @@ h2{
 	.speech-bubble3:after,.speech-bubble1:after{
 		width:5%;
 		padding-left:.4rem;
+	}
+	.headerBubbleContact{
+		margin-left:8.5rem;
+		width:47%;
+	}
+	.pic1Con,.pic2Con{
+		height: 40vh;
 	}
 }
