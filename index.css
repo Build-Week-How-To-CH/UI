@@ -543,3 +543,39 @@ h2{
 		height: 40vh;
 	}
 }
+
+@media(max-width:375px){
+	.headerBubble{
+		width:40%;
+		margin-top:1rem;
+	}
+	.mainPoints{
+		flex-direction: column;
+		margin-left: 1rem;
+		margin-bottom:0rem;
+		width:90%;
+	}
+	#one, #two, #three{
+		margin-bottom:1rem;
+	}
+	.workPic{
+		height:20vh;
+	}
+	.bigHeaderCon{
+		margin:auto;
+	}
+	.workPicCon{
+		height:30vh;
+	}
+	.pic1Con, .pic2Con{
+		height:20vh;
+		border:.4rem solid mediumpurple;
+	}
+	.pic1ConCody{
+		width:50%;
+		border:.5rem solid black;
+	}
+	#codyText{
+		text-align: center;
+	}
+}
