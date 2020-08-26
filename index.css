@@ -444,6 +444,32 @@ h2{
 	}
 }
 
+@media(max-width:828px){
+	.bigHeader{
+		margin-left:0rem;
+		width:45%;
+	}
+	.mainPoints{
+		flex-direction: column;
+		margin-left:14rem;
+	}
+	#one, #two, #three{
+		margin-bottom:1rem;
+	}
+	.workPic{
+		height:18vh;
+	}
+	.bigHeaderCon{
+		margin-left:0rem;
+	}
+	.workPicCon{
+		height:15vh;
+	}
+	.headerBubbleContact{
+		margin-left:17rem;
+	}
+}
+
 @media(max-width:800px){
 	.bigHeader{
 		margin-left: -.15rem;
