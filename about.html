@@ -6,7 +6,7 @@
     <title>How To</title>
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <body>
     <div class="main-container">
@@ -32,46 +32,71 @@
             </header>
 
             <section class="content-container">                
+                
                 <div class="top-rated-articles">  
                     <div id="t1" class="top-rated">
-                        <img src="assets/images/daniel.jpeg">
-                    </div>
-                    <div id="t2" class="top-rated">
-                        <img src="assets/images/khalil.jpeg">
-                    </div>
-                    <div id="t3" class="top-rated">
-                        <img src="assets/images/christian.jpeg">
-                    </div>
-                    <div id="t4" class="top-rated">
                         <img src="assets/images/scott.jpeg">
                     </div>
-                    <div id="t5" class="top-rated">
-                        <img src="assets/images/bea.jpeg">
-                    </div>
-                    <div id="t6" class="top-rated">
-                        <img src="assets/images/evan.jpeg">
-                    </div>
-                    <div id="t7" class="top-rated">
+                    <div id="t2" class="top-rated">
                         <img src="assets/images/brian.jpeg">
                     </div>
-                    <div id="t8" class="top-rated">
+                    <div id="t3" class="top-rated">
                         <img src="assets/images/galo.png">
+                    </div>
+                    <div id="t4" class="top-rated">
+                        <img src="assets/images/evan.jpeg">
+                    </div>
+                    <div id="t5" class="top-rated">
+                        <img src="assets/images/christian.jpeg">
+                    </div>
+                    <div id="t6" class="top-rated">
+                        <img src="assets/images/bea.jpeg">
+                    </div>
+                    <div id="t7" class="top-rated">
+                        <img src="assets/images/khalil.jpeg">
+                    </div>
+                    <div id="t8" class="top-rated">
+                        <img src="assets/images/daniel.jpeg">
                     </div>
                     <div id="t9" class="top-rated">
                         <img src="assets/images/cody.jpeg">
                     </div>
+                </div>
 
+                <div class="main-carousel">
+                    <div class="cell"><img src="assets/images/scott.jpeg"></div>
+                    <div class="cell"><img src="assets/images/brian.jpeg"></div>
+                    <div class="cell"><img src="assets/images/galo.png"></div>
+                    <div class="cell"><img src="assets/images/evan.jpeg"></div>
+                    <div class="cell"><img src="assets/images/christian.jpeg"></div>
+                    <div class="cell"><img src="assets/images/bea.jpeg"></div>
+                    <div class="cell"><img src="assets/images/khalil.jpeg"></div>
+                    <div class="cell"><img src="assets/images/daniel.jpeg"></div>
+                    <div class="cell"><img src="assets/images/cody.jpeg"></div>
                 </div>
                 
-            </section><!--end content-container-->
+
+        </section><!--end content-container-->
+
+            
+
+            
+                
+            
 
 
         </div><!--end background-container-->
-        <footer>
-            <p id="footer-copy">&copy 2020</p>
-            <p><a href="#">Contact</a></p>
-
-        </footer>
     </div><!--end main-container-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+   
+    <script>
+    $('.main-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true,
+        wrapAround: true
+    });
+    </script>
 </body>
 </html>
