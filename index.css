@@ -1,0 +1,612 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background:#343236;
+	background-image: linear-gradient(to bottom right, black, darkgray,mediumpurple);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Srisakdi&display=swap');
+
+/*Houses NavBar*/
+.topDiv{
+	display:flex;
+	justify-content:flex-end;
+	font-family: "Arial";
+	color:mediumpurple;
+	margin-right: 4rem;
+	margin-top:1rem;
+}
+p{
+	color:white;
+	font-family:Arial, Helvetica, sans-serif
+}
+h3{
+	font-family:'Srisakdi', cursive;
+	color:black;
+	text-shadow: 0 0 1px rgb(153, 129, 129), 0 0 6px white;
+}
+.bodyText{
+	width: 65%;
+	justify-content: center;
+	margin-left: 20%;
+}
+/*Con tag used to signify use on the About.html page*/
+.bodyTextCon{
+	width: 65%;
+	justify-content: center;
+	margin-left: 20%;
+	font-family:'Srisakdi', cursive;
+	font-size: 1.3rem;
+}
+/*Nav bar used on both site pages*/
+.mainNav{
+	font-size: 2.2rem;
+	font-family:'Srisakdi', cursive;
+}
+/*Hover effect on the nav bar*/
+.homer:hover{
+	background-color: black;
+	color: whitesmoke;
+}
+.aboutTime:hover{
+		background-color: black;
+		color: whitesmoke;
+}
+/*Main bubble holding the h1*/
+.bigHeader{
+	display:flex;
+	justify-content: start;
+	font-size: 4.7rem;
+	color:white;
+	font-family:'Srisakdi', cursive;
+	margin-left:.75rem;
+}
+/*Main bubble holding the header for about page*/
+.headerBubbleContact{
+		position: relative;
+		background: mediumpurple;
+		border-radius: .4em;
+		width:35%;
+		margin-left:38rem;
+	}
+
+.bigHeaderCon{
+		display:flex;
+		justify-content: center;
+		font-size: 4.7rem;
+		color:white;
+		font-family:'Srisakdi', cursive;
+		margin-left:.75rem;
+	}
+	/*4 triangle word pieces*/
+.mainPoints{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: stretch;
+	font-size: 1.5rem;
+	padding-bottom: 1.4rem;
+	padding-top: 1rem;
+	color:mediumpurple;
+	font-family: "Arial";
+}
+/*#one through #four are used for the 4 text points*/
+#one{
+	height: 0;
+	border-top: 1rem solid transparent;
+	border-left: 2rem solid rgb(96, 66, 155);
+	border-bottom: 1rem solid transparent;
+}
+#two{
+
+	height: 0;
+	border-top: 1rem solid transparent;
+	border-left: 2rem solid grey;
+	border-bottom: 1rem solid transparent;
+}
+#three{
+
+	height: 0;
+	border-top: 1rem solid transparent;
+	border-left: 2rem solid darkgray;
+	border-bottom: 1rem solid transparent;
+}
+#four{
+
+	height: 0;
+	border-top: 1rem solid transparent;
+	border-left: 2rem solid black;
+	border-bottom: 1rem solid transparent;
+}
+/*Bottom nav housing the sign up and login bar*/
+.logMaker{
+	display: flex;
+	justify-content: center;
+	font-family: "Arial";
+	background-color: black;
+}
+h2{
+	display: flex;
+	justify-content: center;
+}
+/*holds the embedded pics*/
+.workPicCon{
+	display: flex;
+	justify-content: center;
+	height: 33rem;
+	margin-top:1.7rem;
+}
+.workPic{
+	display: flex;
+	justify-content: center;
+	height: 33rem;
+	margin-top:1.7rem;
+}
+.pic1{
+	width:35%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:85%;
+	border:.8rem solid mediumpurple;
+}
+.pic2{
+	width:35%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:85%;
+	border:.8rem solid mediumpurple;
+}
+.pic1Con{
+	width:35%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:85%;
+	border:.8rem solid mediumpurple;
+}
+.pic2Con{
+	width:35%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:85%;
+	border:.8rem solid mediumpurple;
+}
+
+.movingText{
+	height: 50px;
+  width: 100px;
+  background-color: #555;
+  border-radius: 50%;
+  margin: 2rem;
+  vertical-align: top;
+  padding-top:2rem;
+  padding-left:.5rem;
+}
+.movingText2{
+	height: 50px;
+  width: 100px;
+  background-color: #555;
+  border-radius: 50%;
+  margin: 2rem;
+  vertical-align: top;
+  padding-top:2rem;
+  word-wrap: break-word;
+  text-align:center ;
+}
+.login{
+	padding-right: .5rem;
+}
+.login:hover{
+	color:whitesmoke;
+}
+.createAccount:hover{
+	color:whitesmoke;
+}
+
+
+.speech-bubble1 {
+	position: relative;
+	background: #d544c1;
+	border-radius: .4em;
+	width:10%;
+	margin-left: 3%;
+	margin-bottom: auto;
+	border:1px solid black;
+}
+.speech-bubble1Con {
+	position: relative;
+	background: #d544c1;
+	border-radius: .4em;
+	width:15%;
+	margin-left: 3%;
+	padding-bottom:.5rem;
+	margin-bottom: auto;
+	border:1px solid black;
+}
+
+.speech-bubble1:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0%;
+	height: 0;
+	border: 31px solid transparent;
+	border-right-color: #d544c1;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -15.5px;
+	margin-left: -31px;
+}
+.speech-bubble1Con:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0%;
+	height: 0;
+	border: 31px solid transparent;
+	border-right-color: #d544c1;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -15.5px;
+	margin-left: -31px;
+}
+
+.speech-bubble2 {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+	width:10%;
+	margin-left: 3%;
+	margin-top: 10%;
+	margin-bottom: 2rem;
+	border:1px solid black;
+}
+
+.speech-bubble2:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-left-color: #00aabb;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-right: -20px;
+}
+.speech-bubble3 {
+		position: relative;
+		background: #d544c1;
+		border-radius: .4em;
+		width:10%;
+		margin-left: 3%;
+		margin-bottom: auto;
+		border:1px solid black;
+}
+.speech-bubble3Con {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+	width:15%;
+	margin-left: 3%;
+	padding-bottom:.5rem;
+	margin-bottom: auto;
+	border:1px solid black;
+}
+
+.speech-bubble3:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0%;
+	height: 0;
+	border: 31px solid transparent;
+	border-right-color: #d544c1;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -15.5px;
+	margin-left: -31px;
+}
+.speech-bubble3Con:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0%;
+	height: 0;
+	border: 31px solid transparent;
+	border-right-color: #00aabb;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -15.5px;
+	margin-left: -31px;
+}
+
+.bubbleHolder{
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 2rem;
+}
+.bubbleHolderCon{
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 2rem;
+}
+.headerBubble {
+	position: relative;
+	background: mediumpurple;
+	border-radius: .4em;
+	width:12%;
+	margin-left:25rem;
+}
+
+.headerBubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 23px solid transparent;
+	border-bottom-color: mediumpurple;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -11.5px;
+	margin-top: -23px;
+}
+
+.workPicCon1{
+		justify-content: center;
+		height: 33rem;
+		margin-top:1.7rem;
+		margin-bottom:4rem;
+	}
+/*Holds build leaders info*/
+.pic1ConCody{
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius:85%;
+		border:.8rem solid black;
+	}
+#codyText{
+	display: flex;
+	justify-content: center;
+	margin-top:1rem;
+	font-size:2rem;
+	font-family:'Srisakdi', cursive;
+	text-shadow: 0 0 1px rgb(153, 129, 129), 0 0 6px white;
+}
+/*This point on is all conversions for dif vp sizes from 1024 to 375px*/
+
+@media (max-width:1024px) {
+	.headerBubble{
+		width: 18%;
+	}
+	#three, #four{
+		margin-top:.8rem;
+	}
+	.workPic{
+		height: 55vh;
+	}
+	.speech-bubble1, .speech-bubble3{
+		width:20%;
+	}
+	.speech-bubble2{
+		width:18%;
+	}
+	.workPicCon{
+		height: 75vh;
+	}
+	.headerBubbleContact{
+		margin-left:21rem;
+	}
+	.speech-bubble1Con, .speech-bubble3Con{
+		width:35%;
+	}
+	.bigHeaderCon{
+		text-align:center ;
+	}
+}
+
+@media(max-width:828px){
+	.bigHeader{
+		margin-left:0rem;
+		width:45%;
+	}
+	.mainPoints{
+		flex-direction: column;
+		margin-left:14rem;
+	}
+	#one, #two, #three{
+		margin-bottom:1rem;
+	}
+	.workPic{
+		height:18vh;
+	}
+	.bigHeaderCon{
+		margin-left:0rem;
+	}
+	.workPicCon{
+		height:15vh;
+	}
+	.headerBubbleContact{
+		margin-left:17rem;
+	}
+}
+
+@media(max-width:800px){
+	.bigHeader{
+		margin-left: -.15rem;
+	}
+	.headerBubble{
+		width:25%;
+	}
+	.mainPoints{
+		flex-flow: nowrap;
+		width:98%;
+		margin-left:0;
+	}
+	.mainNav{
+		font-size:1.4rem;
+	}
+	#one{
+		margin-left:1rem;
+	}
+	.speech-bubble1,.speech-bubble2,.speech-bubble3{
+		width:25%;
+	}
+	#three{
+		margin-left:-1.3rem;
+	}
+	.bigHeaderCon{
+		margin-left:-2rem;
+	}
+	.headerBubbleContact{
+		margin-left:16.5rem;
+	}
+	.pic1Con,.pic2Con{
+		height: 50vh;
+	}
+	.speech-bubble1Con,.speech-bubble3Con{
+		margin-top:-4rem;
+	}
+	.workPic{
+		height: 50vh;
+	}
+	.workPicCon{
+		height: 65vh;
+	}
+}
+
+@media (max-width:500px){
+	.headerBubble{
+	margin-left: 4rem ;
+	width:31%;
+	}
+	.mainPoints{
+		width:90%;
+		margin-bottom:6rem;
+	}
+	#one{
+		margin-left:1.5rem;
+	}
+	.workPic{
+		height: 35vh;
+	}
+	.pic1, .pic2{
+		border:.4rem solid mediumpurple;
+	}
+	.speech-bubble1,.speech-bubble2,.speech-bubble3{
+		width:27%;
+	}
+	.bubbleHolder{
+		width:95%;
+	}
+	.speech-bubble3:after,.speech-bubble1:after{
+		width:5%;
+		padding-left:.4rem;
+	}
+	.headerBubbleContact{
+		margin-left:8.5rem;
+		width:47%;
+	}
+	.pic1Con,.pic2Con{
+		height: 35vh;
+	}
+	.pic1ConCody{
+		width:65%;
+	}
+	.workPicCon{
+		height: 50vh;
+	}
+}
+
+@media(max-width:375px){
+	.headerBubble{
+		width:40%;
+		margin-top:1rem;
+	}
+	.mainPoints{
+		flex-direction: column;
+		margin-left: 1rem;
+		margin-bottom:0rem;
+		width:90%;
+	}
+	#one, #two, #three{
+		margin-bottom:1rem;
+	}
+	.workPic{
+		height:20vh;
+	}
+	.bigHeaderCon{
+		margin:auto;
+	}
+	.workPicCon{
+		height:30vh;
+	}
+	.pic1Con, .pic2Con{
+		height:20vh;
+		border:.4rem solid mediumpurple;
+	}
+	.pic1ConCody{
+		width:50%;
+		border:.5rem solid black;
+	}
+	#codyText{
+		text-align: center;
+	}
+}
