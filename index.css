@@ -57,6 +57,7 @@ table {
 }
 p{
 	color:white;
+	font-family:Arial, Helvetica, sans-serif
 }
 h3{
 	font-family:'Srisakdi', cursive;
@@ -243,6 +244,7 @@ h2{
 	width:10%;
 	margin-left: 3%;
 	margin-bottom: auto;
+	border:2px solid black;
 }
 .speech-bubble1Con {
 	position: relative;
@@ -252,6 +254,7 @@ h2{
 	margin-left: 3%;
 	padding-bottom:.5rem;
 	margin-bottom: auto;
+	border:2px solid black;
 }
 
 .speech-bubble1:after {
@@ -291,6 +294,7 @@ h2{
 	margin-left: 3%;
 	margin-top: 10%;
 	margin-bottom: 2rem;
+	border:2px solid black;
 }
 
 .speech-bubble2:after {
@@ -314,6 +318,7 @@ h2{
 		width:10%;
 		margin-left: 3%;
 		margin-bottom: auto;
+		border:2px solid black;
 }
 .speech-bubble3Con {
 	position: relative;
@@ -323,6 +328,7 @@ h2{
 	margin-left: 3%;
 	padding-bottom:.5rem;
 	margin-bottom: auto;
+	border:2px solid black;
 }
 
 .speech-bubble3:after {
@@ -481,6 +487,7 @@ h2{
 	.mainPoints{
 		flex-flow: nowrap;
 		width:98%;
+		margin-left:0;
 	}
 	.mainNav{
 		font-size:1.4rem;
@@ -505,6 +512,12 @@ h2{
 	}
 	.speech-bubble1Con,.speech-bubble3Con{
 		margin-top:-4rem;
+	}
+	.workPic{
+		height: 50vh;
+	}
+	.workPicCon{
+		height: 65vh;
 	}
 }
 
@@ -541,7 +554,13 @@ h2{
 		width:47%;
 	}
 	.pic1Con,.pic2Con{
-		height: 40vh;
+		height: 35vh;
+	}
+	.pic1ConCody{
+		width:65%;
+	}
+	.workPicCon{
+		height: 50vh;
 	}
 }
 
