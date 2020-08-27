@@ -44,9 +44,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*Font Import*/
 @import url('https://fonts.googleapis.com/css2?family=Srisakdi&display=swap');
 
-
+/*Houses NavBar*/
 .topDiv{
 	display:flex;
 	justify-content:flex-end;
@@ -69,6 +70,7 @@ h3{
 	justify-content: center;
 	margin-left: 20%;
 }
+/*Con tag used to signify use on the About.html page*/
 .bodyTextCon{
 	width: 65%;
 	justify-content: center;
@@ -76,10 +78,12 @@ h3{
 	font-family:'Srisakdi', cursive;
 	font-size: 1.3rem;
 }
+/*Nav bar used on both site pages*/
 .mainNav{
 	font-size: 2.2rem;
 	font-family:'Srisakdi', cursive;
 }
+/*Hover effect on the nav bar*/
 .homer:hover{
 	background-color: black;
 	color: whitesmoke;
@@ -88,6 +92,7 @@ h3{
 		background-color: black;
 		color: whitesmoke;
 }
+/*Main bubble holding the h1*/
 .bigHeader{
 	display:flex;
 	justify-content: start;
@@ -96,6 +101,7 @@ h3{
 	font-family:'Srisakdi', cursive;
 	margin-left:.75rem;
 }
+/*Main bubble holding the header for about page*/
 .headerBubbleContact{
 		position: relative;
 		background: mediumpurple;
@@ -103,7 +109,8 @@ h3{
 		width:35%;
 		margin-left:38rem;
 	}
-	.bigHeaderCon{
+
+.bigHeaderCon{
 		display:flex;
 		justify-content: center;
 		font-size: 4.7rem;
@@ -111,6 +118,7 @@ h3{
 		font-family:'Srisakdi', cursive;
 		margin-left:.75rem;
 	}
+	/*4 triangle word pieces*/
 .mainPoints{
 	display: flex;
 	flex-wrap: wrap;
@@ -123,6 +131,7 @@ h3{
 	color:mediumpurple;
 	font-family: "Arial";
 }
+/*#one through #four are used for the 4 text points*/
 #one{
 	height: 0;
 	border-top: 1rem solid transparent;
@@ -150,6 +159,7 @@ h3{
 	border-left: 2rem solid black;
 	border-bottom: 1rem solid transparent;
 }
+/*Bottom nav housing the sign up and login bar*/
 .logMaker{
 	display: flex;
 	justify-content: center;
@@ -160,6 +170,7 @@ h2{
 	display: flex;
 	justify-content: center;
 }
+/*holds the embedded pics*/
 .workPicCon{
 	display: flex;
 	justify-content: center;
@@ -403,7 +414,7 @@ h2{
 		margin-top:1.7rem;
 		margin-bottom:4rem;
 	}
-
+/*Holds build leaders info*/
 .pic1ConCody{
 		display: flex;
 		margin-left: auto;
@@ -419,7 +430,7 @@ h2{
 	font-family:'Srisakdi', cursive;
 	text-shadow: 0 0 1px rgb(153, 129, 129), 0 0 6px white;
 }
-
+/*This point on is all conversions for dif vp sizes from 1024 to 375px*/
 
 @media (max-width:1024px) {
 	.headerBubble{
