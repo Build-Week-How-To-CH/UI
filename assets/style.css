@@ -326,6 +326,10 @@ a:hover {
     .cell{
         width:50%;
     }
+    #phone-number{
+        padding-top: 10% 5%;
+        font-size: 5rem; 
+    }
 }
 @media (max-width:1000px){
     .cell{
@@ -362,3 +366,4 @@ a:hover {
         height:800px;
     }
 }
+
